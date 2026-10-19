@@ -60,7 +60,7 @@ export default function YupValidate() {
                 type="email"
                 {...register("email")}
                 placeholder="masukkan email"
-                className="border border-gray-300 px-2 py-1 rounded-lg"
+                className="form-input"
               />
               {errors.email?.message && (
                 <p role="alert" className="mt-1 text-sm text-red-600">
@@ -74,7 +74,7 @@ export default function YupValidate() {
                 type="password"
                 {...register("password")}
                 placeholder="masukkan password"
-                className="border border-gray-300 px-2 py-1 rounded-lg"
+                className="form-input"
               />
               {errors.password?.message && (
                 <p role="alert" className="mt-1 text-sm text-red-600">

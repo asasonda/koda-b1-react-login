@@ -1,1 +1,12 @@
-@import 'tailwindcss'
+@import "tailwindcss";
+
+@theme {
+  --color-coklat-600: amber-600;
+}
+
+.form-input {
+  @apply border border-gray-300 px-2 py-1 rounded-lg;
+}
+.form-input:focus {
+  @apply bg-coklat-600;
+}

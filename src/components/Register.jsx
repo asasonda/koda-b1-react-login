@@ -22,9 +22,9 @@ export default function Register() {
     },
   });
   function onValid(data) {
-    const isValidEmail = data.email
-    const isValidUserName = data.username
-    const isValidPassword = data.password
+    const isValidEmail = data.email;
+    const isValidUserName = data.username;
+    const isValidPassword = data.password;
 
     if (isValidEmail && isValidUserName && isValidPassword) {
       setNotice({
@@ -60,7 +60,7 @@ export default function Register() {
                 type="email"
                 {...register("email")}
                 placeholder="masukkan email"
-                className="border border-gray-300 px-2 py-1 rounded-lg"
+                className="form-input"
               />
               {errors.email?.message && (
                 <p role="alert" className="mt-1 text-sm text-red-600">
@@ -75,7 +75,7 @@ export default function Register() {
                 type="text"
                 {...register("username")}
                 placeholder="masukkan username"
-                className="border border-gray-300 px-2 py-1 rounded-lg"
+                className="form-input"
               />
               {errors.username?.message && (
                 <p role="alert" className="mt-1 text-sm text-red-600">
