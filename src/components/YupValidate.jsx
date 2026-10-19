@@ -84,7 +84,7 @@ export default function YupValidate() {
             </div>
             <button
               type="submit"
-              className="py-2 w-full bg-green-600 text-white rounded-lg mt-3"
+              className="button"
             >
               Login
             </button>

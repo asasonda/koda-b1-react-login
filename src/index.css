@@ -15,3 +15,6 @@
 .alert{
     @apply mt-1 text-sm text-alert
 }
+.button{
+    @apply py-2 w-full bg-green-600 text-white rounded-lg mt-3
+}
