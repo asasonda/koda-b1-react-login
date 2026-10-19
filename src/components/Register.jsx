@@ -63,7 +63,7 @@ export default function Register() {
                 className="form-input"
               />
               {errors.email?.message && (
-                <p role="alert" className="mt-1 text-sm text-red-600">
+                <p role="alert" className="alert">
                   {errors.email.message}
                 </p>
               )}
@@ -78,7 +78,7 @@ export default function Register() {
                 className="form-input"
               />
               {errors.username?.message && (
-                <p role="alert" className="mt-1 text-sm text-red-600">
+                <p role="alert" className="alert">
                   {errors.username.message}
                 </p>
               )}

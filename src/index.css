@@ -2,6 +2,7 @@
 
 @theme {
   --color-coklat-600: blue;
+  --color-alert: red
 }
 
 .form-input {
@@ -9,4 +10,8 @@
 }
 .form-input:focus {
   @apply bg-coklat-600;
+}
+
+.alert{
+    @apply mt-1 text-sm text-alert
 }
