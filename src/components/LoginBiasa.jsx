@@ -40,7 +40,7 @@ export default function LoginBiasa() {
                   setUserName(e.target.value);
                 }}
                 placeholder="masukkan username"
-                className="border border-gray-300 px-2 py-1 rounded-lg"
+                className="form-input"
               />
             </div>
             <div className="flex flex-col py-2">
@@ -49,7 +49,7 @@ export default function LoginBiasa() {
                 type="password"
                 ref={pass}
                 placeholder="masukkan password"
-                className="border border-gray-300 px-2 py-1 rounded-lg"
+                className="form-input"
               />
             </div>
             <button

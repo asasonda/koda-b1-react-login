@@ -40,7 +40,7 @@ export default function ReactHookForm() {
                 })}
                 placeholder="masukkan username"
                 required
-                className="border border-gray-300 px-2 py-1 rounded-lg"
+                className="form-input"
               />
             </div>
             <div className="flex flex-col py-2">
@@ -51,7 +51,7 @@ export default function ReactHookForm() {
                   required: "Password wajib diisi",
                 })}
                 placeholder="masukkan password"
-                className="border border-gray-300 px-2 py-1 rounded-lg"
+                className="form-input"
               />
             </div>
             <button
