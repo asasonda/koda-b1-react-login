@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-coklat-600: amber-600;
+  --color-coklat-600: blue;
 }
 
 .form-input {
